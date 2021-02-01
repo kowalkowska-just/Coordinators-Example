@@ -16,6 +16,8 @@
 		D11E6FC325C87AC900E14FE4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FC225C87AC900E14FE4 /* Coordinator.swift */; };
 		D11E6FC625C881E100E14FE4 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FC525C881E100E14FE4 /* Storyboarded.swift */; };
 		D11E6FC925C884E800E14FE4 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FC825C884E800E14FE4 /* MainCoordinator.swift */; };
+		D11E6FD125C88B8300E14FE4 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FD025C88B8300E14FE4 /* CreateAccountViewController.swift */; };
+		D11E6FD425C88BAB00E14FE4 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D11E6FC225C87AC900E14FE4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		D11E6FC525C881E100E14FE4 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		D11E6FC825C884E800E14FE4 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D11E6FD025C88B8300E14FE4 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +66,52 @@
 		D11E6FAC25C87A9200E14FE4 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				D11E6FBB25C87A9600E14FE4 /* Info.plist */,
 				D11E6FAD25C87A9200E14FE4 /* AppDelegate.swift */,
 				D11E6FAF25C87A9200E14FE4 /* SceneDelegate.swift */,
+				D11E6FD625C8956800E14FE4 /* Controllers */,
+				D11E6FDC25C8959B00E14FE4 /* Views */,
+				D11E6FD825C8958100E14FE4 /* Coordinators */,
+				D11E6FDA25C8958D00E14FE4 /* Protocols */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D11E6FD625C8956800E14FE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				D11E6FB125C87A9200E14FE4 /* ViewController.swift */,
-				D11E6FB325C87A9200E14FE4 /* Main.storyboard */,
-				D11E6FB625C87A9600E14FE4 /* Assets.xcassets */,
-				D11E6FB825C87A9600E14FE4 /* LaunchScreen.storyboard */,
-				D11E6FBB25C87A9600E14FE4 /* Info.plist */,
-				D11E6FC225C87AC900E14FE4 /* Coordinator.swift */,
-				D11E6FC525C881E100E14FE4 /* Storyboarded.swift */,
+				D11E6FD025C88B8300E14FE4 /* CreateAccountViewController.swift */,
+				D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D11E6FD825C8958100E14FE4 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
 				D11E6FC825C884E800E14FE4 /* MainCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D11E6FDA25C8958D00E14FE4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D11E6FC225C87AC900E14FE4 /* Coordinator.swift */,
+				D11E6FC525C881E100E14FE4 /* Storyboarded.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D11E6FDC25C8959B00E14FE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D11E6FB325C87A9200E14FE4 /* Main.storyboard */,
+				D11E6FB625C87A9600E14FE4 /* Assets.xcassets */,
+				D11E6FB825C87A9600E14FE4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11E6FD125C88B8300E14FE4 /* CreateAccountViewController.swift in Sources */,
+				D11E6FD425C88BAB00E14FE4 /* BuyViewController.swift in Sources */,
 				D11E6FC325C87AC900E14FE4 /* Coordinator.swift in Sources */,
 				D11E6FC925C884E800E14FE4 /* MainCoordinator.swift in Sources */,
 				D11E6FB225C87A9200E14FE4 /* ViewController.swift in Sources */,
