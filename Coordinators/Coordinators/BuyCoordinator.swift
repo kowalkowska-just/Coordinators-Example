@@ -28,8 +28,4 @@ class BuyCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }
-    
-//    func didFinishBuying() {
-//        parentCoordinator?.childDidFinish(self)
-//    }
 }

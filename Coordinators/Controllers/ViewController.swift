@@ -12,7 +12,7 @@ class ViewController: UIViewController, Storyboarded {
     @IBOutlet weak var account: UISegmentedControl!
     @IBOutlet weak var product: UITextField!
     
-    weak var coordinator: MainCoordinator?
+    var coordinator: MainCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -20,6 +20,7 @@
 		D11E6FD425C88BAB00E14FE4 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */; };
 		D11E6FDF25C8C27D00E14FE4 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */; };
 		D11E6FE225C9EDD900E14FE4 /* Extension-HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FE125C9EDD900E14FE4 /* Extension-HideKeyboard.swift */; };
+		D11E6FF025CA07C600E14FE4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FEF25CA07C600E14FE4 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		D11E6FE125C9EDD900E14FE4 /* Extension-HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-HideKeyboard.swift"; sourceTree = "<group>"; };
+		D11E6FEF25CA07C600E14FE4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				D11E6FC825C884E800E14FE4 /* MainCoordinator.swift */,
 				D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */,
+				D11E6FEF25CA07C600E14FE4 /* AppCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11E6FF025CA07C600E14FE4 /* AppCoordinator.swift in Sources */,
 				D11E6FDF25C8C27D00E14FE4 /* BuyCoordinator.swift in Sources */,
 				D11E6FD125C88B8300E14FE4 /* CreateAccountViewController.swift in Sources */,
 				D11E6FD425C88BAB00E14FE4 /* BuyViewController.swift in Sources */,
