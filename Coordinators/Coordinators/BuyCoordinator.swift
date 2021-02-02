@@ -15,12 +15,16 @@ class BuyCoordinator: Coordinator {
     
     var navigationController: UINavigationController
     
-    init(navigationController: UINavigationController) {
+    var product: String
+    
+    init(navigationController: UINavigationController, product: String) {
         self.navigationController = navigationController
+        self.product = product
     }
     
     func start() {
         let vc = BuyViewController.instantiate()
+        vc.productName = product
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }

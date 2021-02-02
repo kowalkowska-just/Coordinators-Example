@@ -8,7 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController, Storyboarded {
-
+    
+    @IBOutlet weak var account: UISegmentedControl!
+    @IBOutlet weak var product: UITextField!
+    
     weak var coordinator: MainCoordinator?
     
     override func viewDidLoad() {
@@ -16,11 +19,12 @@ class ViewController: UIViewController, Storyboarded {
     }
     
     @IBAction func buyTapped(_ sender: UIButton) {
-        coordinator?.buySubscription()
+        guard let productText = product.text else { return }
+        coordinator?.buySubscription(to: productText)
     }
     
     @IBAction func createAccountTapped(_ sender: UIButton) {
-        coordinator?.createAccount()
+        coordinator?.createAccount(to: account.selectedSegmentIndex)
     }
     
 }

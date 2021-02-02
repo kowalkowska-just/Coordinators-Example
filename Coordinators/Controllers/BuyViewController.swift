@@ -11,13 +11,13 @@ class BuyViewController: UIViewController, Storyboarded {
 
     weak var coordinator: BuyCoordinator?
     
+    var productName: String = ""
+    
+    @IBOutlet weak var productLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        productLabel.text = productName
     }
-    
-//    override func viewDidDisappear(_ animated: Bool) {
-//        super.viewDidDisappear(animated)
-//        
-//        coordinator?.didFinishBuying()
-//    }
 }

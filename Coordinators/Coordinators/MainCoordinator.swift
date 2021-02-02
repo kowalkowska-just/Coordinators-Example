@@ -24,15 +24,16 @@ class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
         navigationController.pushViewController(vc, animated: false)
     }
     
-    func buySubscription() {
-        let child = BuyCoordinator(navigationController: navigationController)
+    func buySubscription(to productName: String) {
+        let child = BuyCoordinator(navigationController: navigationController, product: productName)
         child.parentCoordinator = self
         childCoordinators.append(child)
         child.start()
     }
     
-    func createAccount() {
+    func createAccount(to accountType: Int) {
         let vc = CreateAccountViewController.instantiate()
+        vc.selectedAccount = accountType
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }
