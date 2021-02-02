@@ -19,6 +19,7 @@
 		D11E6FD125C88B8300E14FE4 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FD025C88B8300E14FE4 /* CreateAccountViewController.swift */; };
 		D11E6FD425C88BAB00E14FE4 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */; };
 		D11E6FDF25C8C27D00E14FE4 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */; };
+		D11E6FE225C9EDD900E14FE4 /* Extension-HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FE125C9EDD900E14FE4 /* Extension-HideKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D11E6FD025C88B8300E14FE4 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
+		D11E6FE125C9EDD900E14FE4 /* Extension-HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-HideKeyboard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				D11E6FDC25C8959B00E14FE4 /* Views */,
 				D11E6FD825C8958100E14FE4 /* Coordinators */,
 				D11E6FDA25C8958D00E14FE4 /* Protocols */,
+				D11E6FE425C9EE0C00E14FE4 /* Extension */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -115,6 +118,14 @@
 				D11E6FB825C87A9600E14FE4 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D11E6FE425C9EE0C00E14FE4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D11E6FE125C9EDD900E14FE4 /* Extension-HideKeyboard.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 				D11E6FD425C88BAB00E14FE4 /* BuyViewController.swift in Sources */,
 				D11E6FC325C87AC900E14FE4 /* Coordinator.swift in Sources */,
 				D11E6FC925C884E800E14FE4 /* MainCoordinator.swift in Sources */,
+				D11E6FE225C9EDD900E14FE4 /* Extension-HideKeyboard.swift in Sources */,
 				D11E6FB225C87A9200E14FE4 /* ViewController.swift in Sources */,
 				D11E6FC625C881E100E14FE4 /* Storyboarded.swift in Sources */,
 				D11E6FAE25C87A9200E14FE4 /* AppDelegate.swift in Sources */,

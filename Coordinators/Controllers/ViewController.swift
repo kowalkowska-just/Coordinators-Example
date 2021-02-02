@@ -16,6 +16,8 @@ class ViewController: UIViewController, Storyboarded {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        hideKeyboardWhenTappedAround()
     }
     
     @IBAction func buyTapped(_ sender: UIButton) {
