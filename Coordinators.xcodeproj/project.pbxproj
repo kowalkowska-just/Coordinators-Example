@@ -23,6 +23,7 @@
 		D11E6FF025CA07C600E14FE4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FEF25CA07C600E14FE4 /* AppCoordinator.swift */; };
 		D11E6FF425CA16C400E14FE4 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FF325CA16C400E14FE4 /* TabBarCoordinator.swift */; };
 		D11E6FFA25CA178800E14FE4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FF925CA178800E14FE4 /* TabBarController.swift */; };
+		D11E700025CA27E300E14FE4 /* CreateAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FFF25CA27E300E14FE4 /* CreateAccountCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		D11E6FEF25CA07C600E14FE4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D11E6FF325CA16C400E14FE4 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		D11E6FF925CA178800E14FE4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D11E6FFF25CA27E300E14FE4 /* CreateAccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +95,8 @@
 			children = (
 				D11E6FB125C87A9200E14FE4 /* MainViewController.swift */,
 				D11E6FF925CA178800E14FE4 /* TabBarController.swift */,
-				D11E6FD025C88B8300E14FE4 /* CreateAccountViewController.swift */,
 				D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */,
+				D11E6FD025C88B8300E14FE4 /* CreateAccountViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -106,6 +108,7 @@
 				D11E6FC825C884E800E14FE4 /* MainCoordinator.swift */,
 				D11E6FF325CA16C400E14FE4 /* TabBarCoordinator.swift */,
 				D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */,
+				D11E6FFF25CA27E300E14FE4 /* CreateAccountCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				D11E6FB225C87A9200E14FE4 /* MainViewController.swift in Sources */,
 				D11E6FC625C881E100E14FE4 /* Storyboarded.swift in Sources */,
 				D11E6FAE25C87A9200E14FE4 /* AppDelegate.swift in Sources */,
+				D11E700025CA27E300E14FE4 /* CreateAccountCoordinator.swift in Sources */,
 				D11E6FB025C87A9200E14FE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

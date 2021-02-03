@@ -8,12 +8,12 @@
 import UIKit
 
 class CreateAccountViewController: UIViewController, Storyboarded {
-
+    
+    weak var coordinator: CreateAccountCoordinator?
+    
     var selectedAccount = 0
     
     @IBOutlet weak var selectedAccountLabel: UILabel!
-    
-    weak var coordinator: MainCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
