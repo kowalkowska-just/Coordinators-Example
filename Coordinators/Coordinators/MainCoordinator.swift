@@ -19,7 +19,7 @@ class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
     
     func start() {
         navigationController.delegate = self
-        let vc = ViewController.instantiate()
+        let vc = MainViewController.instantiate()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }

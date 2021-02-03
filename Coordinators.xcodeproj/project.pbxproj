@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D11E6FAE25C87A9200E14FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FAD25C87A9200E14FE4 /* AppDelegate.swift */; };
 		D11E6FB025C87A9200E14FE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FAF25C87A9200E14FE4 /* SceneDelegate.swift */; };
-		D11E6FB225C87A9200E14FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FB125C87A9200E14FE4 /* ViewController.swift */; };
+		D11E6FB225C87A9200E14FE4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FB125C87A9200E14FE4 /* MainViewController.swift */; };
 		D11E6FB525C87A9200E14FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11E6FB325C87A9200E14FE4 /* Main.storyboard */; };
 		D11E6FB725C87A9600E14FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11E6FB625C87A9600E14FE4 /* Assets.xcassets */; };
 		D11E6FBA25C87A9600E14FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11E6FB825C87A9600E14FE4 /* LaunchScreen.storyboard */; };
@@ -21,13 +21,15 @@
 		D11E6FDF25C8C27D00E14FE4 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */; };
 		D11E6FE225C9EDD900E14FE4 /* Extension-HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FE125C9EDD900E14FE4 /* Extension-HideKeyboard.swift */; };
 		D11E6FF025CA07C600E14FE4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FEF25CA07C600E14FE4 /* AppCoordinator.swift */; };
+		D11E6FF425CA16C400E14FE4 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FF325CA16C400E14FE4 /* TabBarCoordinator.swift */; };
+		D11E6FFA25CA178800E14FE4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E6FF925CA178800E14FE4 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D11E6FAA25C87A9200E14FE4 /* Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11E6FAD25C87A9200E14FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D11E6FAF25C87A9200E14FE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D11E6FB125C87A9200E14FE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D11E6FB125C87A9200E14FE4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D11E6FB425C87A9200E14FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D11E6FB625C87A9600E14FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11E6FB925C87A9600E14FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		D11E6FE125C9EDD900E14FE4 /* Extension-HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-HideKeyboard.swift"; sourceTree = "<group>"; };
 		D11E6FEF25CA07C600E14FE4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D11E6FF325CA16C400E14FE4 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		D11E6FF925CA178800E14FE4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +80,9 @@
 				D11E6FAD25C87A9200E14FE4 /* AppDelegate.swift */,
 				D11E6FAF25C87A9200E14FE4 /* SceneDelegate.swift */,
 				D11E6FD625C8956800E14FE4 /* Controllers */,
-				D11E6FDC25C8959B00E14FE4 /* Views */,
 				D11E6FD825C8958100E14FE4 /* Coordinators */,
 				D11E6FDA25C8958D00E14FE4 /* Protocols */,
+				D11E6FDC25C8959B00E14FE4 /* Views */,
 				D11E6FE425C9EE0C00E14FE4 /* Extension */,
 			);
 			path = Coordinators;
@@ -87,7 +91,8 @@
 		D11E6FD625C8956800E14FE4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D11E6FB125C87A9200E14FE4 /* ViewController.swift */,
+				D11E6FB125C87A9200E14FE4 /* MainViewController.swift */,
+				D11E6FF925CA178800E14FE4 /* TabBarController.swift */,
 				D11E6FD025C88B8300E14FE4 /* CreateAccountViewController.swift */,
 				D11E6FD325C88BAB00E14FE4 /* BuyViewController.swift */,
 			);
@@ -97,9 +102,10 @@
 		D11E6FD825C8958100E14FE4 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				D11E6FC825C884E800E14FE4 /* MainCoordinator.swift */,
-				D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */,
 				D11E6FEF25CA07C600E14FE4 /* AppCoordinator.swift */,
+				D11E6FC825C884E800E14FE4 /* MainCoordinator.swift */,
+				D11E6FF325CA16C400E14FE4 /* TabBarCoordinator.swift */,
+				D11E6FDE25C8C27D00E14FE4 /* BuyCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -202,13 +208,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D11E6FF025CA07C600E14FE4 /* AppCoordinator.swift in Sources */,
+				D11E6FFA25CA178800E14FE4 /* TabBarController.swift in Sources */,
 				D11E6FDF25C8C27D00E14FE4 /* BuyCoordinator.swift in Sources */,
+				D11E6FF425CA16C400E14FE4 /* TabBarCoordinator.swift in Sources */,
 				D11E6FD125C88B8300E14FE4 /* CreateAccountViewController.swift in Sources */,
 				D11E6FD425C88BAB00E14FE4 /* BuyViewController.swift in Sources */,
 				D11E6FC325C87AC900E14FE4 /* Coordinator.swift in Sources */,
 				D11E6FC925C884E800E14FE4 /* MainCoordinator.swift in Sources */,
 				D11E6FE225C9EDD900E14FE4 /* Extension-HideKeyboard.swift in Sources */,
-				D11E6FB225C87A9200E14FE4 /* ViewController.swift in Sources */,
+				D11E6FB225C87A9200E14FE4 /* MainViewController.swift in Sources */,
 				D11E6FC625C881E100E14FE4 /* Storyboarded.swift in Sources */,
 				D11E6FAE25C87A9200E14FE4 /* AppDelegate.swift in Sources */,
 				D11E6FB025C87A9200E14FE4 /* SceneDelegate.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, Storyboarded {
+class MainViewController: UIViewController, Storyboarded {
     
     @IBOutlet weak var account: UISegmentedControl!
     @IBOutlet weak var product: UITextField!
